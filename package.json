@@ -1,0 +1,28 @@
+{
+  "name": "maximchatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "custom-env": "^2.0.1",
+    "iohook": "^0.6.6",
+    "robotjs": "^0.6.0",
+    "tmi.js": "^1.8.5"
+  },
+  "iohook": {
+    "targets": [
+      "node-83"
+    ],
+    "platforms": [
+      "win32"
+    ],
+    "arches": [
+      "x64"
+    ]
+  }
+}

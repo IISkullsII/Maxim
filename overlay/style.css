@@ -1,0 +1,88 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    position: relative;
+    margin: 0;
+    background-image: url('./Unbenannt-1.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.overlay-box-buy {
+    display: block;
+    position: absolute;
+    width: 95px;
+    height: 235px;
+    border: 5px solid rgb(255 107 1);
+    color: rgb(255, 109, 64);
+    font-weight: bold;
+    font-size: 1.45rem;
+    text-shadow: 1px 1px white, 1px -1px white, -1px 1px white, -1px -1px white;
+    border-radius: 5px;
+    box-shadow: -1px -1px rgb(255 255 255 / 50%), 1px 1px rgb(0 0 0 / 50%);
+}
+
+.overlay-box-buy.buy-pet {
+    border-color: rgb(255 107 1);
+    color: rgb(255 107 1);
+}
+.overlay-box-buy.buy-item {
+    border-color: rgb(1, 153, 255);
+    color: rgb(1, 153, 255);
+}
+.overlay-box-buy.active-pet {
+    border-color: rgb(247, 1, 255);
+    color: rgb(247, 1, 255);
+}
+
+
+
+.info-legende{
+    display: block;
+    position: absolute;
+    padding: 1rem;
+    top: 150px;
+    left: 0;
+    background-color: #323264bf;
+    color: white;
+    font-weight: bold;
+    max-width: 400px;
+}
+.info-legende p {
+    font-size: 1rem;
+    margin-top: 0;
+}
+.info-legende p.thin {
+    font-size: 1rem;
+    font-weight: normal;
+}
+.info-legende table{
+    width: 100%;
+    font-size: 0.8rem;
+}
+.info-legende table span {
+    font-size: 1rem;
+    text-shadow: 1px 1px white, 1px -1px white, -1px 1px white, -1px -1px white;
+}
+
+.info-legende table span.mark{
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+}
+.info-legende table span.bp{
+    color: rgb(255 107 1);
+}
+.info-legende table span.bi{
+    color: rgb(1, 153, 255);
+}
+.info-legende table span.ap{
+    color: rgb(247, 1, 255);
+}
+.info-legende table span.menu{
+    color: rgb(0, 136, 61);
+}
